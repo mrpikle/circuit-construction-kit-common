@@ -30,7 +30,7 @@ class Battery extends VoltageSource {
   static VOLTAGE_RANGE = new Range( 0, 120 );
   static VOLTAGE_DECIMAL_PLACES = 1;
   static HIGH_VOLTAGE_DEFAULT = 1000;
-  static HIGH_VOLTAGE_RANGE = new Range( 100, 100000 );
+  static HIGH_VOLTAGE_RANGE = new Range( 100, Infinity );
   static HIGH_VOLTAGE_DECIMAL_PLACES = 0;
   isReversibleProperty: BooleanProperty;
 
